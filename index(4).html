@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Портфолио — Егор Атясов</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+body{font-family:Arial,sans-serif;background:#0f172a;color:#fff;line-height:1.6}
+header{padding:80px 20px;text-align:center;background:linear-gradient(135deg,#2563eb,#0f172a)}
+h1{font-size:54px}
+.container{max-width:1100px;margin:auto;padding:40px 20px}
+.card{background:#1e293b;border-radius:18px;padding:24px;margin:20px 0}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.btn{display:inline-block;margin:8px;padding:14px 24px;background:#2563eb;color:#fff;text-decoration:none;border-radius:10px}
+.btn:hover{background:#1d4ed8}
+footer{text-align:center;padding:30px;color:#94a3b8}
+ol,ul{padding-left:20px}
+</style>
+</head>
+<body>
+<header>
+<h1>Егор Атясов</h1>
+<p>Python Desktop & Android Developer</p>
+<p>Портфолио дипломного проекта</p>
+<a class="btn" href="https://github.com/Egor23134/portfolio/releases/download/v1/prilozh.exe">Скачать EXE</a>
+<a class="btn" href="https://github.com/Egor23134/portfolio/releases/download/v1/app-debug.apk">Скачать APK</a>
+<a class="btn" href="https://github.com/Egor23134/portfolio/releases/download/v1/shoe_shop.db">Скачать Базу данных</a>
+</header>
+
+<div class="container">
+<div class="card">
+<h2>Обо мне</h2>
+<p>Меня зовут Егор Атясов. Я занимаюсь разработкой настольных и мобильных приложений на Python. Основной проект — информационная система магазина с использованием SQLite.</p>
+</div>
+
+<div class="grid">
+<div class="card"><h3>Python</h3><p>Разработка логики приложения.</p></div>
+<div class="card"><h3>SQLite</h3><p>Работа с базой данных.</p></div>
+<div class="card"><h3>Windows</h3><p>Настольное приложение.</p></div>
+<div class="card"><h3>Android</h3><p>Мобильная версия приложения.</p></div>
+</div>
+
+<div class="card">
+<h2>Описание проекта</h2>
+<p>Приложение позволяет управлять товарами, сотрудниками и продажами. Все данные хранятся в базе SQLite.</p>
+</div>
+
+<div class="card">
+<h2>Инструкция по скачиванию</h2>
+<h3>Windows</h3>
+<ol>
+<li>Скачайте EXE.</li>
+<li>Запустите файл prilozh.exe.</li>
+<li>Если Windows предупредит о безопасности — нажмите «Подробнее» → «Выполнить в любом случае».</li>
+</ol>
+<h3>Android</h3>
+<ol>
+<li>Скачайте APK.</li>
+<li>Разрешите установку из неизвестных источников (при необходимости).</li>
+<li>Установите и откройте приложение.</li>
+</ol>
+<h3>База данных</h3>
+<ul>
+<li>Скачайте shoe_shop.db.</li>
+<li>Используйте её вместе с приложением или откройте через SQLite Browser.</li>
+</ul>
+</div>
+</div>
+
+<footer>© 2026 Егор Атясов</footer>
+</body>
+</html>
